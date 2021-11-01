@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+}
+.left{
+    width: 30%;
+    background-color: darkslategray;
+
+}
+.leftdiv{
+    padding: 30px;
+  
+}
+.left{
+    color:lightgrey;
+}
+h3{
+    color: white;
+}
+.right h3{
+    color: black;
+}
+.education,.experience,.interests {
+    padding-left: 40px;
+}
+.right{
+    width: 70%;
+   background-color:white ;
+    
+}
+
+body{
+    margin:40px;
+}
+/* .year{
+    text-align: left;
+} */
+
+.edu{
+    display: flex;
+    flex-direction: row;
+}
+.year{
+    padding-right: 30px;
+    padding-top: 20px;
+   
+}
+.interestslist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    
+}
+.interestslist div{
+    padding :30px;
+    margin:20px;
+    border:2px solid lightseagreen;
+    overflow:visible;
+}
+.yearcontent{
+    border-left:4px solid lightseagreen;
+    padding-left: 20px;;
+}
+@media screen and (max-width: 800px){
+	/* .container .right {
+		display: none;
+	}
+	.container .left{
+		display: block;
+	} */
+	.container{
+		width: 95%;
+		margin: 10px auto;
+        
+		flex-direction: column;
+	}
+	.container .left,
+	.container .right{
+		width: 100%;
+	}
+}
