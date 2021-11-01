@@ -65,7 +65,7 @@ body{
     border-left:4px solid lightseagreen;
     padding-left: 20px;;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
 	/* .container .right {
 		display: none;
 	}
